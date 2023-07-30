@@ -11,7 +11,7 @@
   "name": "films_api",
   "description": "Explore my film favorites and those which have had a lasting impression throughout time.",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

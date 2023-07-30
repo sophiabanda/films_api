@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "films_api",
+  "description": "Explore my film favorites and those which have had a lasting impression throughout time.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

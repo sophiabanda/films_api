@@ -1,5 +1,8 @@
 const express = require("express"),
-  app = express();
+  app = express(),
+  morgan = require("morgan");
+
+app.use(morgan("common"));
 
 let topBooks = [
   {
@@ -16,6 +19,7 @@ let topBooks = [
   },
 ];
 
+//express.METHOD(PATH, HANDLER)
 app.get("/", (req, res) => {
   res.send("Welcome to my book club!");
 });
